@@ -1,0 +1,14 @@
+.container{
+	width:233rem;
+	height:50rem;
+	display: flex;
+	align-items: center;
+	font-size:24rem;
+	gap:6rem;
+	span:first-child{
+	 color:white;
+	}
+	span:last-child{
+		color:#04FFFB;
+	}
+}
