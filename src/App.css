@@ -61,8 +61,8 @@ html {
 
 /* fonts */
 @font-face {
-  font-family: DIN-Bold;
-  src: url("./assets/fonts/DIN-Bold.otf") format("woff2");
+  font-family: Poppins;
+  src: url("./assets/fonts/Poppins-Regular.ttf") format("woff2");
   font-style: normal;
   font-weight: normal;
   font-display: auto;
