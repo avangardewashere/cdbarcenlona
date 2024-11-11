@@ -1,12 +1,13 @@
 import { memo } from 'react';
 import clsx from 'clsx';
 import style from './index.module.scss';
-import Logo from '../../component/logo';
+ 
+import Header from '../../component/header';
 
 const Homepage = memo(() => {
   return (
 	<div className={clsx(style.container)}>
-		<Logo />
+		<Header />
 	  <span>Homepage</span>
 	</div>
   );

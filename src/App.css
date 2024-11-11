@@ -57,13 +57,35 @@ html {
   text-align: center;
   height: 100vh;
 }
-
-
-/* fonts */
+ 
 @font-face {
   font-family: Poppins;
   src: url("./assets/fonts/Poppins-Regular.ttf") format("woff2");
   font-style: normal;
   font-weight: normal;
+  font-display: auto;
+}
+/* fonts */
+@font-face {
+  font-family: Poppins-light;
+  src: url("./assets/fonts/Poppins-Light.ttf") format("woff2");
+  font-style: normal;
+  font-weight: 100;
+  font-display: auto;
+}
+ 
+@font-face {
+  font-family: Poppins-medium;
+  src: url("./assets/fonts/Poppins-Medium.ttf") format("woff2");
+  font-style: normal;
+  font-weight: 700;
+  font-display: auto;
+}
+ 
+@font-face {
+  font-family: Poppins-bold;
+  src: url("./assets/fonts/Poppins-Medium.ttf") format("woff2");
+  font-style: normal;
+  font-weight: 900;
   font-display: auto;
 }
