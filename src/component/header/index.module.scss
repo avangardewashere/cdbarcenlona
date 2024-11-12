@@ -2,6 +2,19 @@
 	display:flex;
 	align-items: center;
 	justify-content: space-around;
-	width:390rem;
+	width:1440rem;
 	height:60rem;
+	.navigator{
+		display:flex;
+		gap:12rem;
+		color:white;
+        .navItem{
+			transition:all .6s linear;
+			border:none;
+		}
+		.activeNav{
+			color:#04FFFB;
+			border-bottom:#04FFFB solid 2rem;
+		}
+	}
 }
