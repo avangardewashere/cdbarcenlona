@@ -8,6 +8,25 @@ const Homepage = memo(() => {
   return (
 	<div className={clsx(style.container)}>
 		<Header />
+		{"Profile"}
+		{"Bio"}
+		{"links"}
+
+		{//About me
+		"About me" + "right side photo"
+		}
+
+		{//
+		"Employment timeline"
+		}
+
+		{//
+		"Services Area"
+		}
+
+		{//
+		"Form Area"
+		}
 	  <span>Homepage</span>
 	</div>
   );
