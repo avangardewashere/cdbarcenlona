@@ -1,6 +1,10 @@
 import { memo } from "react";
 import clsx from "clsx";
 import style from "./index.module.scss";
+import instaicon from "./../../assets/images/icons/socials/instagram.png"
+import fbicon from "./../../assets/images/icons/socials/facebook.png"
+import messicon from "./../../assets/images/icons/socials/messenger.png"
+
 
 const HeroSection = memo(() => {
   return (
@@ -21,6 +25,23 @@ const HeroSection = memo(() => {
           online presence and help you achieve your goals.
         </p>
       </div>
+
+      {/* button */}
+      <div className={clsx(style.socials)}>
+        <div className={clsx(style.icontainer)}>
+          <img src={instaicon} alt="social-media-icon-charles-darwin-barcelona" />
+        </div>
+		<div className={clsx(style.icontainer)}>
+          <img src={fbicon} alt="social-media-icon-charles-darwin-barcelona" />
+        </div>
+		<div className={clsx(style.icontainer)}>
+          <img src={messicon} alt="social-media-icon-charles-darwin-barcelona" />
+        </div>
+      </div>
+	  
+	  <div className={clsx(style.hireButton)}>
+		Hire Me
+	  </div>
     </div>
   );
 });

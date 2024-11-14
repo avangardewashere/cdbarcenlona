@@ -10,7 +10,8 @@ const Homepage = memo(() => {
 	<div className={clsx(style.container)}>
 		<Header />
 		<HeroSection />
-		{"Profile"}
+
+		{/* {"Profile"}
 		{"Bio"}
 		{"links"}
 
@@ -28,8 +29,8 @@ const Homepage = memo(() => {
 
 		{//
 		"Form Area"
-		}
-	  <span>Homepage</span>
+		} */}
+	  {/* <span>Homepage</span> */}
 	</div>
   );
 });
