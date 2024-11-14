@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  width: 1115rem;
+  margin-inline: auto;
+  gap: 20rem;
+  .leftSection {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20rem;
+	justify-content: flex-start;
+	align-items: flex-start;
+    .aboutMe {
+      font-size: 42rem;
+      font-family: Poppins-bold;
+      font-weight: 800;
+    }
+
+    .typingText {
+		font-size: 42rem;
+		font-family: Poppins;
+		font-weight: 800;
+      color: #04fffb;
+      font-size: 32rem;
+    }
+
+    .pAboutMe {
+      font-size: 16rem;
+      color: white;
+	  text-align: left;
+    }
+
+    .ctaButton {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+      width: 215rem;
+      background: #04fffb;
+      color: black;
+	  border-radius:20rem;
+      font-size: 18rem;
+      height: 45rem;
+    }
+  }
+}
