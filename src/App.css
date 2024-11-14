@@ -89,3 +89,11 @@ html {
   font-weight: 900;
   font-display: auto;
 }
+
+.image{
+  width:286rem;
+  height:286rem;
+  background:rgba(240, 248, 255, 0.06);
+  border-radius: 50%;
+  
+}

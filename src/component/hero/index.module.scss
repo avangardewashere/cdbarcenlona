@@ -1,0 +1,32 @@
+.container{
+	width:100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+
+	.tagLine{
+		font-family: Poppins-bold;
+		font-size:78rem;
+		font-weight:800;
+		line-height:111rem;
+		b{
+			color:white;
+		}
+		color:#04FFFB;
+
+	}
+
+	.heroGraph{
+		p{
+			width: 1028rem;
+			margin-inline:auto;
+			height:81rem;
+			text-align: center;
+			font-family: Poppins;
+			font-size: 18rem;
+			display: flex;
+			justify-content: center;
+		}
+	}
+}
