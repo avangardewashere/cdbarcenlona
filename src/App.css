@@ -97,3 +97,20 @@ html {
   border-radius: 50%;
   
 }
+
+.adm-step .adm-step-indicator .adm-step-icon-container  {
+ 	color:#04FFFB!important;
+  /* font-size: 20rem !important; */
+
+}
+
+.adm-step .adm-step-indicator::after  {
+  background-color: #04fffb !important;;
+}
+
+.adm-step-icon-dot{
+  width:30rem !important;
+  height:30rem !important;
+  border-radius: 50% !important;
+  box-shadow: 10rem 10rem 96rem 0rem rgba(4,255,251,0.42);
+}

@@ -1,0 +1,19 @@
+.container{
+	display:flex;
+	widtH:1440rem;
+	justify-content: center;
+	// background:red;
+	.employmentTimeline{
+		display:flex;
+		align-items: center;
+		gap:20rem;
+		flex-direction: column;
+	}
+	.period{
+	 
+		width:0;
+	}
+	.adm-step-icon-dot{
+		width:30rem;
+	}
+}
