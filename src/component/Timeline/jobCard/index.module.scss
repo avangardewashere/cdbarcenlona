@@ -1,0 +1,36 @@
+.jobCard {
+    width: 500rem;
+    height: 148rem;
+    top: 40rem;
+    gap: 0rem;
+    border-radius: 13rem  ;
+    border: 3rem solid #04fffb ;
+    opacity: 1;
+	box-shadow: 10rem 10rem 96rem 0rem rgba(4,255,251,0.42);
+	position: relative;
+	color:white;
+	display:flex ;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	font-size:20rem;
+	gap:8rem;
+	padding:12rem;
+	
+	.jobDate{
+		position: absolute;
+		color:white !important;
+		font-size:24rem;
+		top:-50rem;
+	}
+	.jobTitle{
+		font-size:32rem;
+		color:#04fffb;
+	}
+	.employer{
+		color:white;
+		
+	}
+
+  }
