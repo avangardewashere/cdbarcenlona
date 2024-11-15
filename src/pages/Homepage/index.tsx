@@ -5,6 +5,7 @@ import style from "./index.module.scss";
 import Header from "../../component/header";
 import HeroSection from "../../component/hero";
 import About from "../../component/about";
+import TimeLine from "../../component/Timeline";
 
 const Homepage = memo(() => {
   return (
@@ -12,6 +13,7 @@ const Homepage = memo(() => {
       <Header />
       <HeroSection />
       <About />
+	  <TimeLine/>
       {/* {"Profile"}
 		{"Bio"}
 		{"links"}
