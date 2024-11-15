@@ -17,12 +17,13 @@
 	font-size:20rem;
 	gap:8rem;
 	padding:12rem;
-	
+	transform: translateX(-120%);
 	.jobDate{
 		position: absolute;
 		color:white !important;
 		font-size:24rem;
 		top:-50rem;
+		right: 20rem;
 	}
 	.jobTitle{
 		font-size:32rem;
