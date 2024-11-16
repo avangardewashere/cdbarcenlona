@@ -4,12 +4,13 @@ import style from "./index.module.scss";
 import instaicon from "./../../assets/images/icons/socials/instagram.png"
 import fbicon from "./../../assets/images/icons/socials/facebook.png"
 import messicon from "./../../assets/images/icons/socials/messenger.png"
-
+import sarls from "./../../assets/images/profile/p.png"
 
 const HeroSection = memo(() => {
   return (
     <div className={clsx(style.container)}>
-      <div className={clsx("image")}></div>
+      <img src={sarls} alt="" />
+      {/* <div className={clsx("image")}></div> */}
       <div className={clsx(style.heroGraph)}>
         <div className={clsx(style.tagLine)}>
           <b>It's</b> <span>Charles Darwin Barcelona</span>
