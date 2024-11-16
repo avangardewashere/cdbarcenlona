@@ -1,10 +1,11 @@
 .container {
   width: 100%;
   display: flex;
+  padding-top:60rem;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-   gap:24rem;  height:80vh;
+   gap:12rem;  height:80vh;
   .tagLine {
     font-family: Poppins-bold;
     font-size: 78rem;

@@ -9,7 +9,7 @@ import sarls from "./../../assets/images/profile/p.png"
 const HeroSection = memo(() => {
   return (
     <div className={clsx(style.container)}>
-      <img src={sarls} alt="" />
+      <img style={{width:"240rem",aspectRatio:1}}src={sarls} alt="cd-barcelona-photo" />
       {/* <div className={clsx("image")}></div> */}
       <div className={clsx(style.heroGraph)}>
         <div className={clsx(style.tagLine)}>

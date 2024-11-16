@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 html {
-  font-size: calc(100vw / 1440);
+  font-size: calc(100vw / 1280);
 }
 #root {
   text-align: center;
