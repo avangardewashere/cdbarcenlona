@@ -1,7 +1,7 @@
 import { memo } from "react";
 import clsx from "clsx";
 import style from "./index.module.scss";
-
+import sarls from "./../../assets/images/profile/p.png";
 const About = memo(() => {
   return (
     <div className={clsx(style.container)}>
@@ -16,11 +16,16 @@ const About = memo(() => {
           professional skills like Branding, Web Development, UI/UX Web
           Designing.
         </p>
-		<div className={clsx(style.ctaButton)}>
-			Check out my work
-		</div>
+        <div className={clsx(style.ctaButton)}>Check out my work</div>
       </div>
-      <div className={clsx(style.rightSection)}></div>
+      <div className={clsx(style.rightSection)}>
+        {" "}
+        <img
+          style={{ width: "240rem", aspectRatio: 1 }}
+          src={sarls}
+          alt="cd-barcelona-photo"
+        />
+      </div>
     </div>
   );
 });
